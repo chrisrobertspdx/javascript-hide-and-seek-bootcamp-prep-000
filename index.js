@@ -40,7 +40,7 @@ function deepestChild2() {
 }
 
 function deepestChild() {
-  const lis = document.querySelectorAll('div#nested div');
+  const lis = document.querySelectorAll('div#grand-node div');
   console.log(lis.length);
   var node = lis[0];
   while (node.children.length > 0) {
